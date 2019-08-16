@@ -162,8 +162,8 @@ p {
 }
 .navigation {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   padding: 20px;
   background-color: #F6F6F6;
@@ -179,14 +179,14 @@ p {
   color: #454A59;
 }
 footer {
+  display: flex;
+  align-items: center;
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 .home .intro .header-img {
   display: flex;

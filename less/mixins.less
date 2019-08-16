@@ -1,5 +1,5 @@
 // Mixins Here
-.bottom-buttons (@radiusBorder, @topPadding, @bottomPadding, @buttonWidth) {
+.bottom-button (@radiusBorder, @topPadding, @bottomPadding, @buttonWidth) {
     background-color: @btn-bg-color;
     text-align: center;
     border-radius: @radiusBorder;
@@ -9,4 +9,15 @@
     color: @wild-sand;
     font-size: 1.6rem;
 
+}
+
+.flex-display-body () {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-display-nav-footer () {
+    display: flex;
+    align-items: center;
 }
