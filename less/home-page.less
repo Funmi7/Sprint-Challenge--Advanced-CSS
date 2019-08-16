@@ -79,7 +79,7 @@
       }
 
       .btn {
-        .bottom-buttons(@btn-bg-color, 30% );
+        .bottom-buttons(7px, 10px, 10px, 30%);
       }
     }
 
@@ -91,6 +91,26 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+
+    @media @mobile {
+      flex-direction: column-reverse;
+      margin-top: 20px;
+      padding: 0px;
+      padding-top: 20px;
+
+      .walk-img {
+        width: 92%;
+      }
+
+      .walk-text {
+        margin-left:10px;
+        width: 95%;
+
+        .btn {
+          .bottom-buttons(2px, 20px, 20px, 100%);
+        }
       }
     }
   }

@@ -1,10 +1,10 @@
 // Mixins Here
-.bottom-buttons (@backgroundColor, @buttonWidth) {
-    background-color: @backgroundColor;
+.bottom-buttons (@radiusBorder, @topPadding, @bottomPadding, @buttonWidth) {
+    background-color: @btn-bg-color;
     text-align: center;
-    border-radius: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius: @radiusBorder;
+    padding-top: @topPadding;
+    padding-bottom: @bottomPadding;
     width: @buttonWidth;
     color: @wild-sand;
     font-size: 1.6rem;
