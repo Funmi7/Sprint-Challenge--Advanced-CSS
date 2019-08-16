@@ -74,6 +74,10 @@
 
       .btn {
         .bottom-button(7px, 10px, 10px, 30%);
+        &:hover {
+          background-color: lighten(@btn-bg-color, 50%);
+          color: darken(@wild-sand, 50%);
+        }
       }
     }
 
@@ -104,6 +108,11 @@
 
         .btn {
           .bottom-button(2px, 20px, 20px, 100%);
+
+          &:hover {
+            background-color: lighten(@btn-bg-color, 50%);
+            color: darken(@wild-sand, 50%);
+          }
         }
       }
     }
